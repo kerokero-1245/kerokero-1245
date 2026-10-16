@@ -26,6 +26,7 @@
 - 純関数と API は必ずテストを書く（`node --test`）
 - 整形は Prettier の既定設定（`.prettierrc.json` は `{}`）。整形だけのコミットは `.git-blame-ignore-revs` に載せる
 - lint は eslint（移行中。Expo のアプリは eslint-config-expo）
+- 文書に書くローカルのパスは `~/` 始まりにする（ユーザー名を書かない）
 
 ## 4. コミット
 
